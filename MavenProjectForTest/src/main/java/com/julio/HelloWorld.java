@@ -13,12 +13,12 @@ public class HelloWorld {
 		Person p1 = new Person ("pepe", 24);
 		Person p2 = new Person ("juan", 21);
 		
-		List<Person> l = new ArrayList<Person>();
+		List<Person> personList = new ArrayList<Person>();
 		
-		l.add(p1);
-		l.add(p2);
+		personList.add(p1);
+		personList.add(p2);
 		
-		for (Person p : l) {
+		for (Person p : personList) {
 			System.out.println("Name: " + p.getName());
 		}
 	}
